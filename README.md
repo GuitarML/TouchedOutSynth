@@ -1,6 +1,6 @@
 # TouchedOut PolySynth
 
-![app](https://github.com/GuitarML/TouchSynth/blob/main/images/touchedout.png)
+![app](https://github.com/GuitarML/TouchedOutSynth/blob/main/images/touchedout.png)
 
 
 [Video Demos on YouTube](https://youtu.be/tRJoIYXkm-U?si=PkRd3XZ30BAMkGUb)
