@@ -1,0 +1,331 @@
+(footprint "Slide_Potentiometer_35mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
+	(tags "potentiometer vertical 9mm single")
+	(property "Reference" "Slide Pot"
+		(at 6.71 -4.64 180)
+		(layer "F.SilkS")
+		(uuid "f43dd82f-eee7-43a0-8df4-e69f35482e15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10K"
+		(at 6.1 17.1 180)
+		(layer "F.Fab")
+		(uuid "443f84aa-4751-47b4-9cfb-673675186722")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "293dab4a-a5f2-4882-85ff-3efefcbeb9bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3095969e-0ade-4fbd-90b9-dfa183298b24")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.175 31.3)
+		(end -1.175 -3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dab9748-f3f9-4d34-af86-5bb61dd87451")
+	)
+	(fp_line
+		(start -1.15 31.3)
+		(end 8.749844 31.299826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef92b932-20f7-458f-9b72-082c0cc7bda5")
+	)
+	(fp_line
+		(start -1.11 -3.9)
+		(end 8.875 -3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b029beb-550c-4436-863b-924a4e2f5beb")
+	)
+	(fp_line
+		(start 8.75 31.245)
+		(end 8.85 -3.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67ac5033-4d2d-4d9c-9ac1-694d8085f8d9")
+	)
+	(fp_line
+		(start -1.175 31.3)
+		(end -1.15 -3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2989dba6-4723-4cf1-b261-cc43f4fbab01")
+	)
+	(fp_line
+		(start -1.175 31.3)
+		(end 3.825 31.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "906a052b-b2ff-497e-b8c7-cb7d5127af38")
+	)
+	(fp_line
+		(start -1.15 -3.9)
+		(end 8.85 -3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b4a7be5c-0baf-4620-92d0-f2297b23e300")
+	)
+	(fp_line
+		(start 1.83 -3.3)
+		(end 1.84 30.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "645de172-4dd2-49e4-a646-1c28c0222109")
+	)
+	(fp_line
+		(start 1.84 30.7)
+		(end 5.84 30.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5f2aa021-6fc4-485c-8211-293c56e29fac")
+	)
+	(fp_line
+		(start 3.825 31.3)
+		(end 3.849495 -3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "26314d67-6d91-4a39-85e6-ea67b96e68c6")
+	)
+	(fp_line
+		(start 3.837237 13.7)
+		(end 9.925 13.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f214ee55-8bbf-4c8a-a215-9e0bb3d8371a")
+	)
+	(fp_line
+		(start 3.837248 13.7)
+		(end 5.84 13.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d74f623f-7359-4f17-bbac-99502c184d65")
+	)
+	(fp_line
+		(start 3.85 -3.9)
+		(end 3.837237 13.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "11aefc62-42b2-4d21-bfa0-48b6cb3ccd96")
+	)
+	(fp_line
+		(start 3.85 -3.9)
+		(end 3.8375 13.3375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fb019fc8-c6c4-45bb-85e4-686be12045cb")
+	)
+	(fp_line
+		(start 5.83 -3.3)
+		(end 1.83 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6030c68a-c05d-474d-9f9d-3def452ac5d3")
+	)
+	(fp_line
+		(start 5.84 13.7)
+		(end 5.83 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e8131d0a-c22b-4446-a72f-a146d1a8b53f")
+	)
+	(fp_line
+		(start 5.84 30.7)
+		(end 5.84 31.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "323135b5-8f44-4085-8b67-83fe371cf466")
+	)
+	(fp_line
+		(start 8.825 31.3)
+		(end -1.175 31.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c2e89a1a-325a-42e3-8603-a7654197afb0")
+	)
+	(fp_line
+		(start 8.85 -3.9)
+		(end 8.825 31.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "121822a8-3b51-43f7-8d87-b6f8cc355293")
+	)
+	(fp_line
+		(start -1.15 -3.91)
+		(end -1.125 31.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4419ef3-3efb-4e84-858f-c92837512f51")
+	)
+	(fp_line
+		(start -1.125 31.3)
+		(end 8.825 31.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0f4df1d-0982-40ca-9fa8-a69fe96b8de3")
+	)
+	(fp_line
+		(start 8.85 31.3)
+		(end 8.85 -3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b5bfe6e-9bf9-4c59-a7b2-0d07c2bb34aa")
+	)
+	(fp_line
+		(start 8.875 -3.91)
+		(end -1.15 -3.91)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0885954-75a5-4d1a-aba7-7a9652888676")
+	)
+	(fp_line
+		(start 8.85 5.6)
+		(end 8.85 -3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81d62401-6276-4637-a861-02d86cc3f6dd")
+	)
+	(pad "1" thru_hole rect
+		(at 5.84 30.7 90)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6684afa5-5c3a-467f-b67e-b0c83b95136a")
+	)
+	(pad "2" thru_hole circle
+		(at 1.84 30.7 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "341c7c43-0576-401a-b344-a5cbecf210fa")
+	)
+	(pad "3" thru_hole circle
+		(at 5.83 -3.3 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "630a7a30-c8fb-4498-bc8f-5a57af0bf01f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alpha_RD901F-40-00D_Single_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
