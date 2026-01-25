@@ -239,9 +239,6 @@ void AudioCallback(float **in, float **out, size_t size) {
 ////////////////////////// SETUP //////////////////////////////
 
 void setup() {  
-  
-  //System::Config syscfg; // Not sure if this does anything here
-  //syscfg.Boost();
 
   DAISY.init(DAISY_SEED, AUDIO_SR_48K);
   //DAISY.init(DAISY_SEED, AUDIO_SR_16K); // Use 16kHz samplerate to eliminate processing issues, will introduce aliasing noise though
@@ -287,11 +284,7 @@ void setup() {
   pinMode(SWITCH_1_UP, INPUT_PULLUP);
   pinMode(SWITCH_1_DOWN, INPUT_PULLUP);
   pinMode(SWITCH_2_UP, INPUT_PULLUP);
-  //pinMode(SWITCH_2_DOWN, INPUT_PULLUP);
   pinMode(SWITCH_3_UP, INPUT_PULLUP);
-  //pinMode(SWITCH_3_DOWN, INPUT_PULLUP);
-  //pinMode(SWITCH_4_UP, INPUT_PULLUP);
-  //pinMode(SWITCH_4_DOWN, INPUT_PULLUP);
 
   pinMode(LOOPER_LED, OUTPUT);
 

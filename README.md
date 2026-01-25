@@ -1,51 +1,17 @@
 # TouchedOut PolySynth
 
+The TouchedOut Polysynth is a polyphonic capacitive touch synth on a PCB, using the Daisy Seed. 
+Two Adafruit MPR121 capacitive touch modules are used for keys and buttons. The firmware 
+was designed and built using Arduino IDE with DaisyDuino. See Electrosmith's tutorials for
+setting up the DaisyDuino environment with Arduino IDE. This repo also includes the
+KiCad schematic and pcb files for ordering your own from a PCB manufacturer (JLCPcb gerbers provided).
+
 ![app](https://github.com/GuitarML/TouchedOutSynth/blob/main/images/touchedout.png)
 
 
 [Video Demos on YouTube](https://youtu.be/tRJoIYXkm-U?si=PkRd3XZ30BAMkGUb)
 
 
-
-
-## Hardware
-
-
-
-## Software
-
-
-
-### Build the Software
-Head to the [Electro-Smith Wiki](https://github.com/electro-smith/DaisyWiki) to learn how to set up the Daisy environment on your computer.
-
-```
-# Clone the repository
-$ git clone https://github.com/GuitarML/Funbox.git
-$ cd Funbox
-
-# initialize and set up submodules
-$ git submodule update --init --recursive
-
-# Build the daisy libraries (after installing the Daisy Toolchain):
-# Replace the daisy_petal files in libDaisy/src with the files in the "mod" directory to properly map controls on Funbox.
-$ make -C libDaisy
-$ make -C DaisySP
-
-# Build the desired pedal firmware (Mars pedal shown below as example) (after installing the Daisy Toolchain)
-$ cd software/Mars
-$ make
-```
-
-Then upload the firmware (.bin) to your Funbox pedal with the following commands (or use the [Electrosmith Web Programmer](https://electro-smith.github.io/Programmer/))
-```
-# This is the procedure for uploading to Flash memory on the Daisy Seed, if using SRAM memory use Bootloader method (Mars and Neptune use SRAM).
-cd your_pedal
-# using USB (after entering bootloader mode)
-make program-dfu
-# using JTAG/SWD adaptor (like STLink)
-make program
-```
-
-
+Follow this tutorial to set up DaisyDuino in Arduino IDE:
+[How to Add Daisy Support to Arduino IDE](https://youtu.be/UyQWK8JFTps?si=kI6pP10nuPIkyu_V)
 

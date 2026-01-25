@@ -333,5 +333,5 @@ float Process() {
 
 private:
 
-  VoiceManager<8> _osc;
+  VoiceManager<8> _osc;  // Play around with the number of polyphony, using 8 introducing cause processing issues when pressing keys too fast
 };

@@ -19,9 +19,6 @@ class Touch {
       {}
 
     void Init() {
-      // Uncomment if you want to use i2C4
-      // Wire.setSCL(D13);
-      // Wire.setSDA(D14);
       
       if (!_cap.begin(0x5A)) {
         Serial.println("MPR121 0x5A not found, check wiring?");
@@ -30,8 +27,8 @@ class Touch {
           delay(200);
         }
       }
-
-      if (!_cap2.begin(0x5B)) { // This address is when back pad is soldered (ADDR connected to 3v3)
+      // Make sure to double check address used here
+      if (!_cap2.begin(0x5B)) { // This address is when back pad is soldered (ADDR connected to 3v3) 
         Serial.println("MPR121 0x5B not found, check wiring?");
         while (1) {
           Serial.println("PLEASE CONNECT 0x5B MPR121 TO CONTINUE TESTING");
