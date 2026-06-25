@@ -15,3 +15,4 @@ KiCad schematic and pcb files for ordering your own from a PCB manufacturer (JLC
 Follow this tutorial to set up DaisyDuino in Arduino IDE:
 [How to Add Daisy Support to Arduino IDE](https://youtu.be/UyQWK8JFTps?si=kI6pP10nuPIkyu_V)
 
+IMPORTANT!!! Updating Adafruit_MPR121 package to version 1.2.0 breaks functionality due to I2C incompatibilites. Use Adafruit_MPR121 version 1.1.3
