@@ -16,3 +16,7 @@ Follow this tutorial to set up DaisyDuino in Arduino IDE:
 [How to Add Daisy Support to Arduino IDE](https://youtu.be/UyQWK8JFTps?si=kI6pP10nuPIkyu_V)
 
 IMPORTANT!!! Updating Adafruit_MPR121 package to version 1.2.0 breaks functionality due to I2C incompatibilites. Use Adafruit_MPR121 version 1.1.3
+
+Use these Tools settings in your Arduino IDE (pay attention to -O3 optimization and USB support: generic serial supercede USART)
+
+![app](https://github.com/GuitarML/TouchedOutSynth/blob/main/images/ArduinoIDE_tool_settings.jpg)
