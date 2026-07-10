@@ -1,4 +1,4 @@
-# TouchedOut PolySynth
+# TouchedOut Sampler
 
 The TouchedOut Polysynth is a polyphonic capacitive touch synth on a PCB, using the Daisy Seed. 
 Two Adafruit MPR121 capacitive touch modules are used for keys and buttons. The firmware 
@@ -11,6 +11,13 @@ KiCad schematic and pcb files for ordering your own from a PCB manufacturer (JLC
 
 [Video Demos on YouTube](https://youtu.be/tRJoIYXkm-U?si=PkRd3XZ30BAMkGUb)
 
+## Microphone Circuit
+![app](https://github.com/GuitarML/TouchedOutSynth/blob/main/images/ArduinoIDE_tool_settings.jpg)
+
+The added microphone circuit for the TouchedOutSampler firmware is shown above. The mic used is from [Adafruit](https://www.adafruit.com/product/1063?srsltid=AfmBOooQ07_40sVdienoSQDztJte4-cMyLQY7wpDJVhW7ct12bVJHef1), MAX4466.
+The 100uF capacitor on the audio line couples the audio to AC, as the output from the MAX4466 is DC coupled.
+The RC filter using the 100 ohm resistior and 100uF capacitor was required for noise reduction. There 
+is alot of noise coming from the Daisy Seed 3v3A power, but this RC filter does a good job of filtering it out. 
 
 Follow this tutorial to set up DaisyDuino in Arduino IDE:
 [How to Add Daisy Support to Arduino IDE](https://youtu.be/UyQWK8JFTps?si=kI6pP10nuPIkyu_V)
