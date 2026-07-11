@@ -19,6 +19,8 @@ The 100uF capacitor on the audio line couples the audio to AC, as the output fro
 The RC filter using the 100 ohm resistior and 100uF capacitor was required for noise reduction. There 
 is alot of noise coming from the Daisy Seed 3v3A power, but this RC filter does a good job of filtering it out. 
 
+## Arduino IDE Setup
+
 Follow this tutorial to set up DaisyDuino in Arduino IDE:
 [How to Add Daisy Support to Arduino IDE](https://youtu.be/UyQWK8JFTps?si=kI6pP10nuPIkyu_V)
 
